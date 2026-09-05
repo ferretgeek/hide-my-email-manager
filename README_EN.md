@@ -1,33 +1,12 @@
 # Hide My Email manager
 
-<p align="center">
-  <img src="./docs/images/social-preview.png" alt="Hide My Email manager — organize your Apple aliases" width="100%" />
-</p>
+[中文](README.md) · English
 
-<p align="center">
-  <a href="./README.md">中文</a> · English
-</p>
+Organize Apple Hide My Email addresses you have already created: import them, add labels and notes, search, and export, so you can find which address belongs to each website.
 
-<p align="center">
-  <a href="https://github.com/ferretgeek/hide-my-email-manager/actions/workflows/ci.yml"><img src="https://github.com/ferretgeek/hide-my-email-manager/actions/workflows/ci.yml/badge.svg" alt="CI" /></a>
-  <a href="https://github.com/ferretgeek/hide-my-email-manager/actions/workflows/codeql.yml"><img src="https://github.com/ferretgeek/hide-my-email-manager/actions/workflows/codeql.yml/badge.svg" alt="CodeQL" /></a>
-  <img src="https://img.shields.io/badge/Python-3.10%2B-287f87" alt="Python 3.10+" />
-  <img src="https://img.shields.io/badge/License-MIT-5f7f55.svg" alt="License: MIT" />
-</p>
+Requirements: Windows, macOS, or Linux with Python 3.10+. Create addresses through Apple first, then add or import them manually; this tool does not sign in to Apple or sync Apple-side status.
 
-> Create enough Apple Hide My Email addresses and you stop remembering which one went where. This keeps track.
-
-## Why this exists
-
-iCloud+ Hide My Email is genuinely good: generate a random address per signup, forwarded to your real inbox.
-
-The problem shows up six months later. You have forty addresses that look like `quiet-leaf-3f2a@icloud.com`, and Apple's interface only lets you page through them — no labels, no notes, no bulk search, no way to take them with you. "Which service was this one for?" You don't remember.
-
-This is the notebook: **import, label, annotate, mark status, search, back up.** The addresses are still created by you in Apple's own interface; this just makes them memorable.
-
-**It does not take over your Apple account.** No Apple password, verification code, cookie, or token is accepted, and no undocumented Apple API is called.
-
-[Deployment](./docs/DEPLOYMENT.md) · [Privacy and security](./docs/PRIVACY.md) · [Issues](https://github.com/ferretgeek/hide-my-email-manager/issues)
+[Run locally](#running-locally) · [Import format](#import-format) · [Server deployment](docs/DEPLOYMENT.md)
 
 ## Interface
 

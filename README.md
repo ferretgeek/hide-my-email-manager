@@ -1,33 +1,12 @@
-# 隐私邮箱地址管理
+# Apple 隐藏邮件地址管理
 
-<p align="center">
-  <img src="./docs/images/social-preview.png" alt="隐私邮箱地址管理 — 整理 Apple Hide My Email 地址" width="100%" />
-</p>
+中文 · [English](README_EN.md)
 
-<p align="center">
-  中文 · <a href="./README_EN.md">English</a>
-</p>
+整理你已创建的 Apple「隐藏邮件地址」：导入地址、添加标签和备注、搜索与导出，方便查清每个地址用在哪个网站。
 
-<p align="center">
-  <a href="https://github.com/ferretgeek/hide-my-email-manager/actions/workflows/ci.yml"><img src="https://github.com/ferretgeek/hide-my-email-manager/actions/workflows/ci.yml/badge.svg" alt="CI" /></a>
-  <a href="https://github.com/ferretgeek/hide-my-email-manager/actions/workflows/codeql.yml"><img src="https://github.com/ferretgeek/hide-my-email-manager/actions/workflows/codeql.yml/badge.svg" alt="CodeQL" /></a>
-  <img src="https://img.shields.io/badge/Python-3.10%2B-287f87" alt="Python 3.10+" />
-  <img src="https://img.shields.io/badge/License-MIT-5f7f55.svg" alt="License: MIT" />
-</p>
+适用环境：Windows、macOS 或 Linux，Python 3.10+；地址需先在 Apple 官方界面创建并手动录入或导入，本工具不登录 Apple，也不同步 Apple 端状态。
 
-> Apple 的「隐藏邮件地址」建多了就记不住哪个给了谁。这个工具帮你把它们整理清楚。
-
-## 为什么会需要它
-
-iCloud+ 的 Hide My Email 很好用：每次注册生成一个随机地址，转发到你真实邮箱。
-
-问题出在半年之后。你有四十个 `quiet-leaf-3f2a@icloud.com` 这样的地址，Apple 的界面里只能一页页翻，没有标签、没有备注、没法批量搜索，也带不走。想知道"当初这个地址是给哪家用的"——不记得了。
-
-这个工具就是那本册子：**导入、打标签、写备注、标状态、搜索、备份。** 地址仍然由你在 Apple 官方界面创建；它只负责让你记得住。
-
-**它不接管你的 Apple 账号。** 不接收 Apple 密码、验证码、Cookie 或令牌，也不调用任何未公开的 Apple 接口。
-
-[部署](./docs/DEPLOYMENT.md) · [隐私与安全](./docs/PRIVACY.md) · [问题反馈](https://github.com/ferretgeek/hide-my-email-manager/issues)
+[本地运行](#三分钟本地运行) · [导入格式](#导入格式) · [服务器部署](docs/DEPLOYMENT.md)
 
 ## 界面
 
